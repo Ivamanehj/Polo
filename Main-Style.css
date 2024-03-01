@@ -1,0 +1,140 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+.bg {
+    background: url(Main-Background.jpg) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.center{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+    }
+
+    .center .Starters {
+    
+        color: #fff;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        font-family: "Josefin Sans", sans-serif;
+    
+    
+    }
+   .center .PlayBook {
+    
+    color: #00cdb3; 
+    font-size: 150px;
+    font-weight: 600;
+    word-spacing: 50px;
+    
+  
+    
+    
+    }  
+    .center .btns {
+    
+        margin-top: 100px;
+    
+    }
+    .center .btns button{
+        height: 55px;
+        width: 350px;
+        border-radius: 30px;
+        border: none;
+        margin: 0 10px;
+        border:  2px solid #044e3f;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        outline: none;
+        font-family: "Josefin Sans", sans-serif;
+        
+        
+    
+    }
+    
+    .center .btns button :only-child {
+    color: #fff;
+    background: none;
+    
+    }
+    
+
+    .Glowingtext {
+        color: #fff;
+        text-shadow:
+            0 0 10px #0fa;
+    
+        
+          
+      }
+      
+      .Billiards {
+
+        /* Long Bar  */
+        border-radius: 30px;
+        border:  2px solid #ffffff;
+        margin-bottom: 100px;
+        margin-left: 25%;
+        background-color: #044e3f;
+        color: #ffffff; 
+        font-size: 45px;
+        width: 50%;
+        font-family: "Josefin Sans", sans-serif;
+
+        
+        
+        
+        
+      }
+      
+      .GlowingBilliards {
+        color: #fff;
+        text-shadow:
+            0 0 20px #fff;
+    
+           
+      }
+  .Playbookfont {
+    font-family: "Dynamo W04 Bold Condensed";
+        src: url("574e5b8318e53b92bdb78209bd03fc72.eot");
+        src: url("574e5b8318e53b92bdb78209bd03fc72.eot?#iefix")format("embedded-opentype"),
+            url("574e5b8318e53b92bdb78209bd03fc72.woff")format("woff"),
+            url("574e5b8318e53b92bdb78209bd03fc72.woff2")format("woff2"),
+            url("574e5b8318e53b92bdb78209bd03fc72.ttf")format("truetype"),
+            url("574e5b8318e53b92bdb78209bd03fc72.svg#Dynamo W04 Bold Condensed")format("svg");
+        font-weight:25px;
+        font-style:normal;
+        letter-spacing: 10px;
+
+   
+    
+  }
+ .dropdown-warmup {
+
+position: absolute;
+margin-left: 50px;
+}
+
+.dropdown-cooldown {
+
+    position: absolute;
+    margin-left: 100px; 
+}
