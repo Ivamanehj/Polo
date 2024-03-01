@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  States the document type and it's language, in this instance it's HTML and En for English  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <!--  Compatibility fit for different devices  -->
+    <title>Starter's Playbook</title>
+    <!--  title for the visual tab sa browser  -->
+    
+    <link rel="stylesheet" href="\CSS\Warmup.css">
+    <link href="https://db.onlinewebfonts.com/c/574e5b8318e53b92bdb78209bd03fc72?family=Dynamo+W04+Bold+Condensed" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!--   Connects the CSS file for the whole page see; "Style.css" for adjustments -->
+</head>
+<!-- End of the Head part of the webpage-->
+
+
+
+
+<body>
+<!--The body is where the entire look of the site is coded -->
+
+
+
+
+<div class="bg"></div>
+
+
+<div class="center">
+    <div class="Billiards GlowingBilliards ">
+        Billiards
+    </div>
+    <div class="PlayBook Glowingtext Playbookfont">PlayBook</div>
+    
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn";>Warm-ups</button>
+        <div id="myDropdown" class="dropdown-content">
+            <li><a href="Hand&Wrist.html">•Hand/Wrist Strech</a></li>
+            <li><a href="Neck&Back.html">•Neck & Back Strech</a></li>
+            <li><a href="ShoulderStrech.html">•Shoulder Strech</a></li>
+            <li><a href="HandPositioning.html">•Hand Positioning</a></li>
+            <li><a href="TuneUpShots.html">•Tune Up Shots</a></li>
+        </div>
+      </div>
+    
+
+
+</div>
+<div class="foot">
+    <div class="foot-note">
+      
+        <p>Copyright © 2024 M&V inc. All Rights Reserved. </p>
+      </div>
+  </div>
+
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+    
+</body>
+</html>
