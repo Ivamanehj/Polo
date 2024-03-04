@@ -122,8 +122,8 @@
         cursor: pointer;
         outline: none;
         font-family: "Josefin Sans", sans-serif;
-        margin-top: 750px;
-        margin-left: -470px;
+       left: 100px;
+       top: 600px;
 }
 
 .GIF {
